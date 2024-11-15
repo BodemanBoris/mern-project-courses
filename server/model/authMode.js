@@ -18,6 +18,12 @@ const userSchema = new mongoose.Schema({
     required: true,
     trim: true,
     minLength: 6
+  },
+  diplomas: {
+    type: Array
+  },
+  coursesInfo: {
+    type: Object
   }
 }, { timestamps: true })
 

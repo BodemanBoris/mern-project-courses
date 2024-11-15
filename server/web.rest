@@ -2,8 +2,8 @@ POST http://localhost:3500/signin
 Content-Type: application/json
 
 {
-    "email": "boris11@boris.com",
-    "password": "boris9",
+    "email": "boris15@boris.com",
+    "password": "boris1",
     "username":"Boris"
 }
 ###
@@ -11,10 +11,13 @@ POST http://localhost:3500/login
 Content-Type: application/json
 
 {
-    "email": "boris11@boris.com",
-    "password": "boris9"
+    "email": "boris13@boris.com",
+    "password": "boris1"
 }
 
 
 ###
 POST http://localhost:3500/logout
+
+###
+GET  http://localhost:3500/user

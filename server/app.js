@@ -9,5 +9,8 @@ app.disable('x-powered-by')
 app.use(express.json())
 app.use(morgan('dev'))
 app.use(cookieParser())
-app.use(cors())
+app.use(cors({
+  origin: 'http://localhost:5173', // Cambia al dominio de tu frontend
+  credentials: true // Permite el envío de cookies y credenciales
+}))
 connectDb()
