@@ -2,7 +2,7 @@ POST http://localhost:3500/signin
 Content-Type: application/json
 
 {
-    "email": "boris15@boris.com",
+    "email": "boris16@boris.com",
     "password": "boris1",
     "username":"Boris"
 }
